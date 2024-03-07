@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+background-image:linear-gradient(rgba(0, 0, 0, 0.93),rgba(0, 0, 0, 0.889)), url("sunset-1373171_1280.jpg");
+
+ background-blend-mode: multiply;
+}
+.top{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.lidiv{
+    float: right;
+    background-color: black;
+    width: 100px;
+    height: 150px;
+  margin-right: 5px;
+  margin-left: 20px;
+display: block;
+border-radius: 0px 0px 50px 50px;
+  
+}
+ul{   
+    margin-left: 25px;
+   list-style:none;
+}
+li{
+    padding: 1px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.praser{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding: 3px;
+    
+}
+.inputsarch{
+    display: flex;
+
+width: 210px;
+padding: 1px;
+border-radius: 5px;
+background-color: transparent;
+margin-left: 50px;
+border: 1px solid orange;
+float: right;
+
+}
+.serachin{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.butdiv{
+    background-color: orange;
+    color: white;
+    border-radius:0px 3px 3px 0px;
+
+   height: 30px;
+   width: 500px;
+
+   border: none;
+   margin-left: -15px;
+
+}
+.PraRoz{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.search{
+    background-color: transparent;
+    border: none;
+    margin-top: 6px;
+    cursor: pointer;
+    color: white;
+    color: wh;
+}
+::placeholder{
+    color: white;
+}
+.developme{
+    margin:100px auto;
+    width: 300px;
+}
+.web{
+    color: white;
+}
+.ment{
+    color: orange;
+}
+.course{
+    color: white;
+}
+.writeup{
+    color: white;
+    font-size: 10px;
+}
+.click{
+   background-color: orange;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    color: black;
+    font-weight: 800;
+    
+}
+.tton{
+    margin-top: 8px;
+}
+.fav{
+ 
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.558);
+    height: 350px;
+    padding-top: 3px;
+
+}
+.here{
+    width: 230px;
+    
+    margin: auto;
+    background-color: white;
+    margin-top:10px;
+    border-radius: 5px;
+}
+.loghere{
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+  color: orange;
+ margin-bottom: 20px;
+}
+.email{
+    margin-top: 20px;
+    width: 165px;
+   margin-left: 60px;
+
+}
+.ent{
+    background-color: transparent;
+        margin: 15px;
+        border: none;
+        border-bottom: 1px solid orange;
+        font-size: 15px;
+        width: 250px;
+        outline: none;
+        color: white;
+}
+.gin{
+    width: 210px;
+    background-color: orange;
+    margin: auto;
+    text-align: center;
+    margin-left: 25px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.in{
+    background-color: transparent;
+    border: none;
+    font-weight: 1000;
+cursor: pointer;
+color: black;
+}
+.last{
+    
+    width: 165px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.account{
+
+    color: white;
+}
+.si{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.up{
+    color: orange;
+}
+.with{
+    margin-top: 10px;
+}
+.gol{
+    color: white;
+}
+input{
+    color: white;
+    transition: 2s;
+}
+::placeholder{
+    opacity: 0.5;
+}
+input:active{
+    
+    background-color: orangered;
+}
+input:hover {
+
+    background-color: orangered;
+}
